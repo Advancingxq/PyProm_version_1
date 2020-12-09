@@ -11,25 +11,8 @@
 ## 三、算法实现
 1.模型比较：Cao B, Wang J, Fan J, et al. Querying similar process models based on the Hungarian algorithm[J]. IEEE Transactions on Services Computing, 2016, 10(1): 121-135.</br>
 2.模型发现：Van der Aalst W, Weijters T, Maruster L. Workflow mining: Discovering process models from event logs[J]. IEEE Transactions on Knowledge and Data Engineering, 2004, 16(9): 1128-1142.</br>
-3.日志生成：个人实现，随机dfs遍历，具体见代码</br>
-4.存储格式：个人实现，分为库所、变迁、边三部分</br>
-            ```
-            <place id="place_id">  </br>
-                <name>  </br>
-                   <text>place_name</text>  </br>
-                </name>  </br>
-            </place> </br>
-            <transition id="transition_id">  </br>
-                <name>  </br>
-                   <text>tranisition_name</text>  </br>
-                </name>  </br>
-            </transition></br>
-            <arc id="arc_id" source="source_id" target="target_id">  </br>
-                <arctype>  </br>
-                   <text>normal</text>  </br>
-                </arctype>  </br>
-            </arc> </br>
-            ```
+3.日志生成：个人实现，基于随机dfs遍历，具体见代码</br>
+4.存储格式：个人实现，基于xml语法，分为库所、变迁、边三部分，具体见代码</br>
  ## 四、效果
  ![Image text](https://github.com/Advancingxq/PyProm_version_1/blob/main/result.png)</br>
  ## 五、意义
