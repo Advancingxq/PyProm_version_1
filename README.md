@@ -5,8 +5,8 @@
 ## 二、环境
 1.项目名称：PyProm </br>
 2.项目来源：为本科毕业设计搭建的工具，获校优 </br>
-3.开发平台：windows10+pycharm
-4.编程语言：Python3.6
+3.开发平台：windows10+pycharm </br>
+4.编程语言：Python3.6 </br>
 5.使用框架和包：Pyqt5（图形界面设计）、graphviz（图形化展示）、random（随机数生成）、xml.dom.minidom（xml文件解析）、uuid（随机字符串生成）、numpy（矩阵运算）</br>
 ## 三、算法实现
 1.模型比较：Cao B, Wang J, Fan J, et al. Querying similar process models based on the Hungarian algorithm[J]. IEEE Transactions on Services Computing, 2016, 10(1): 121-135.</br>
